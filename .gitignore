@@ -1,0 +1,15 @@
+# OS artifacts
+.DS_STORE
+
+# Tools artifacts
+node_modules
+coverage
+.eslintcache
+*.log
+*.pem
+tsconfig.tsbuildinfo
+dump.rdb
+logfile
+
+# Project artifacts
+pageObjects/
