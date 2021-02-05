@@ -270,7 +270,7 @@
   dependencies:
     "@utam/core" "0.0.1-alpha19"
 
-"@wdio/cli@^6.10.10":
+"@wdio/cli@^6.12.1":
   version "6.12.1"
   resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.12.1.tgz#9d2f0986c9fab2d02a620522a4f8c94fb24c20e8"
   integrity sha512-RgCSonEnCWtVgA1XKUlFuBsQdTbeFs9dvP0VBwCTMilwqMPzt9OhpcDjvRjohBSX8dKf7YqcgEOuWr0WDCPQqw==
