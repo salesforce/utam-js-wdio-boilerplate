@@ -1,9 +1,8 @@
 # utam-js-wdio-boilerplate
 
+The [`github.com/salesforce/utam-js-wdio-boilerplate`](https://github.com/salesforce/utam-js-wdio-boilerplate.git) repo includes a simple boilerplate UTAM page object and an end-to-end test file.
 
 ## Set Up the Wdio Boilerplate Repo
-
-The [`github.com/salesforce/utam-js-wdio-boilerplate`](https://github.com/salesforce/utam-js-wdio-boilerplate.git) repo includes an very simple boilerplate UTAM page objects, and an end-to-end test files.
 
 1. Clone or fork the repo.
 
@@ -61,21 +60,21 @@ The [`github.com/salesforce/utam-js-wdio-boilerplate`](https://github.com/salesf
     $ yarn build
     ```
 
-    The UTAM compiler generates JavaScript code from the JSON page objects in the `pageObjects` folder.
+    The UTAM compiler generates JavaScript code from the JSON page objects in `src/__utam__`. The generated JavaScript files are stored in `pageObjects`.
 
 1. Run tests.
 
     To run all tests, enter `yarn test`.
 
-    To run a particular test, use the command commented at the top of the test file, for example:
+    To run an individual test, specify the path to the test file. For example:
 
     ```bash
-    $ yarn test --spec packages/my-tests/src/__tests__/example-custom-components.spec.ts
+    $ yarn test --spec src/test/example.spec.ts
     ```
 
 ## About this boilerplate
 
 UTAM is flexible&mdash;it isn't tied to a particular test automation framework or language.
 
-This particular repo uses Typescript, [WebdriverIO](https://webdriver.io/docs/gettingstarted.html) with [Jasmine](https://webdriver.io/docs/frameworks.html).
+This particular repo uses Typescript, and [WebdriverIO](https://webdriver.io/docs/gettingstarted.html) with [Jasmine](https://webdriver.io/docs/frameworks.html).
 
