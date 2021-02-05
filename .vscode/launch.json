@@ -1,0 +1,19 @@
+{
+    "version": "0.0.1",
+    "configurations": [
+      {
+        "name": "wdio - tests",
+        "env": {
+          "CHROME_HEADLESS": "false",
+          "DEBUG" : "true"
+        },
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "autoAttachChildProcesses": true,
+        "program": "${workspaceRoot}/node_modules/.bin/wdio",
+        "skipFiles": ["<node_internals>/**"],
+        "console": "integratedTerminal",
+      }
+    ]
+}
