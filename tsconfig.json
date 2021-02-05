@@ -1,0 +1,20 @@
+{
+    // This tsconfig is to verify the type correctness of the tests
+    "compilerOptions": {
+        "noEmit": true,
+        "rootDir": "src",
+        "noUnusedLocals": true,
+        "declaration": true,
+        "sourceMap": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "ES2020",
+        "skipLibCheck": true,
+        "types": ["node", "webdriverio", "@wdio/jasmine-framework", "wdio-utam-service"]
+    },
+    "exclude": [
+        "node_modules/**",
+    ]
+}
