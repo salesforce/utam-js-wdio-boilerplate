@@ -3,7 +3,7 @@ const PORT = process.env.PORT || 8080;
 
 exports.config = {
     runner: 'local',
-    specs: ['src/**/__wdio__/*.spec.ts'],
+    specs: ['src/test/**/*.spec.ts'],
     maxInstances: 1,
     capabilities: [{
         maxInstances: 1,
