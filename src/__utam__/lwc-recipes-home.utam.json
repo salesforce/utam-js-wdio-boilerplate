@@ -1,0 +1,34 @@
+{
+    "root": true,
+    "selector": {
+        "css": "my-app"
+    },
+    "shadow": {
+        "elements": [
+            {
+                "name": "navbar",
+                "selector": {
+                    "css": "ui-navbar"
+                },
+                "type": "utam-js-webdriverio-boilerplate/pageObjects/lwc-navbar",
+                "public": true
+            },            
+            {
+                "name": "content",
+                "selector": {
+                    "css": "article.container div"
+                },
+                "elements": [
+                    {
+                        "name": "recipe2",
+                        "selector": {
+                            "css": "recipe-hello-binding"
+                        },
+                        "type": "utam-js-webdriverio-boilerplate/pageObjects/lwc-hello-binding",
+                        "public": true
+                    }
+                ]
+            }
+        ]
+    }
+}

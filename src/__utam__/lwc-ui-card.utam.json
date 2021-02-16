@@ -1,0 +1,29 @@
+{
+    "elements": [
+        {
+            "name": "text",
+            "selector": {
+                "css": "p"
+            },
+            "public": true
+        },
+        {
+            "name": "uiinput",
+            "selector": {
+                "css": "ui-input"
+            },
+            "shadow": {
+                "elements": [
+                    {
+                        "name": "input",
+                        "type": "editable",
+                        "public": true,
+                        "selector": {
+                            "css": "input"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

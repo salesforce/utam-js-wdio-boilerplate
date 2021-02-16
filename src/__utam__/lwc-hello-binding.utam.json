@@ -1,0 +1,29 @@
+{
+    "shadow": {
+        "elements": [
+            {
+                "name": "uicard",
+                "selector": {
+                    "css": "ui-card"
+                },
+                "type": "utam-js-webdriverio-boilerplate/pageObjects/lwc-ui-card",
+                "public": true
+            }
+        ]
+    },
+    "methods": [
+        {
+            "name": "getGreeting",
+            "chain": [
+                {
+                    "element": "uicard",
+                    "type": "utam-js-webdriverio-boilerplate/pageObjects/lwc-ui-card"
+                },
+                {
+                    "element": "text",
+                    "type": "actionable"
+                }
+            ]
+        }
+    ]
+}
