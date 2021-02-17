@@ -1,6 +1,7 @@
 // to run: yarn test --spec src/test/recipes.spec.ts
 
 import HomePage from 'utam-js-webdriverio-boilerplate/pageObjects/lwc-recipes-home';
+import HelloExample from 'utam-js-webdriverio-boilerplate/pageObjects/lwc-hello-binding';
 
 describe('UTAM WDIO example for LWC recipes', () => {
 
@@ -13,7 +14,7 @@ describe('UTAM WDIO example for LWC recipes', () => {
         const homePage = await utam.load(HomePage);
 
         // Access nested elements
-        const recipe = await homePage.getRecipe2();
+        const recipe = await homePage.getRecipe(2, HelloExample);
         const card = await recipe.getUicard();
         const text = await recipe.getGreeting();
 

@@ -20,11 +20,17 @@
                 },
                 "elements": [
                     {
-                        "name": "recipe2",
+                        "name": "recipe",
                         "selector": {
-                            "css": "recipe-hello-binding"
+                            "css": ":scope > *:nth-child(%d)",
+                            "args": [
+                                {
+                                    "name": "index",
+                                    "type": "number"
+                                }
+                            ]
                         },
-                        "type": "utam-js-webdriverio-boilerplate/pageObjects/lwc-hello-binding",
+                        "type": "container",
                         "public": true
                     }
                 ]
