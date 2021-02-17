@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { UtamWdioService } = require('wdio-utam-service');
 const PORT = process.env.PORT || 8080;
 

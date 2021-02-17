@@ -13,3 +13,7 @@ logfile
 
 # Project artifacts
 pageObjects/
+
+# env config
+*.env
+.env

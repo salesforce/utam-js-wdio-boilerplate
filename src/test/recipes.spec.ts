@@ -1,6 +1,5 @@
 // to run: yarn test --spec src/test/recipes.spec.ts
 
-// Import a PageObject from within the package
 import HomePage from 'utam-js-webdriverio-boilerplate/pageObjects/lwc-recipes-home';
 
 describe('UTAM WDIO example for LWC recipes', () => {
