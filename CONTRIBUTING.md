@@ -37,15 +37,7 @@ $ git clone git@github.com<YOUR-USERNAME>/utam-js-wdio-boilerplate.git
 $ cd utam-js-wdio-boilerplate
 ```
 
-### 2) Install dependencies
-
-_We use [yarn](https://yarnpkg.com/) because it is significantly faster than npm for our use case. See this command [cheatsheet](https://yarnpkg.com/lang/en/docs/migrating-from-npm/)._
-
-```bash
-$ yarn install
-```
-
-### 3) Update chromedriver (if relevant)
+### 2) Update chromedriver (if relevant)
 
 If your version of the Google Chrome web Browser doesn't match the `chromedriver` version declared in `package.json`, you should update it.
 
@@ -59,11 +51,19 @@ If you have a mismatch, update the `chromedriver` version in `package.json` to m
 "chromedriver": "^88.0.0",
 ```
 
+### 3) Install dependencies
+
+_We use [yarn](https://yarnpkg.com/) because it is significantly faster than npm for our use case. See this command [cheatsheet](https://yarnpkg.com/lang/en/docs/migrating-from-npm/)._
+
+```bash
+$ yarn install
+```
+
 ### 4) Build the project
 
-Execute `yarn install` to install the project and build it. The install command automatically runs `yarn build` after it installs the project dependencies.
+The `yarn install` command automatically runs `yarn build` after it installs the project dependencies.
 
-If you change a page object or test later, run `yarn build` to update the project.
+If you modify page objects or tests later, run `yarn build` to update the project.
 
 Building the project does 2 things:
 
