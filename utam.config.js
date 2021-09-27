@@ -1,6 +1,3 @@
-module.exports = {
-    // file mask for utam page objects
-    testMatch: ['**/__utam__/**/*.utam.json'],
-    // output folder for generated page objects, relative to the package root
-    outputDir: 'pageObjects',
-};
+// This project structure follows the default convention.
+// We export an empty object as there's no need to configure the compiler in that case.
+module.exports = {};
