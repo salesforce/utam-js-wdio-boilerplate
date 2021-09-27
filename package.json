@@ -22,7 +22,7 @@
         "ts-node": "^10.0.0",
         "typescript": "^4.3.2",
         "wdio-chromedriver-service": "^6.0.4",
-        "wdio-utam-service": "^0.0.6"
+        "wdio-utam-service": "^0.0.9"
     },
     "volta": {
         "node": "14.15.4",

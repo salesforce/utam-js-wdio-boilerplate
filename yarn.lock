@@ -265,30 +265,30 @@
   dependencies:
     "@types/node" "*"
 
-"@utam/compiler@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@utam/compiler/-/compiler-0.0.6.tgz#9c792d96572a7ce6912397970b7081d0d87d7f79"
-  integrity sha512-GTkskVn/ZtUDn/PFaMg6B5IGO9rXqqOt0peyvVNmZkx29BUJLbk3S+DbvMkedThVR/WQ70NKBt3IAmRogzBlNw==
+"@utam/compiler@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@utam/compiler/-/compiler-0.0.9.tgz#7ee1731ab35fcccf32b531312ee751d872e87614"
+  integrity sha512-CNtVRPe09xISPQVom6xACxlNXWlxbVzpbNeny9ciE3Roe/mRJrMwbYLd+fw6Qxtr9zEnsVVa3UaVPesENJqkYg==
   dependencies:
-    "@utam/diagnostics" "0.0.6"
+    "@utam/diagnostics" "0.0.9"
     jsonc-parser "^3.0.0"
 
-"@utam/core@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@utam/core/-/core-0.0.6.tgz#11b5e71a3ac77d096d435e0b07f58d1490bde458"
-  integrity sha512-qg+cKJ3iDY0tPFqSXF2RwKFP01+7OtkDmXydJQsPs2dCuBs7sN3I+qn+frmoeS8IvS7u9xNRQ8e8dwtCEV0F5Q==
+"@utam/core@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@utam/core/-/core-0.0.9.tgz#b52f87cc4a8e4c5d2eac0e07174eae87dc3822f6"
+  integrity sha512-L8ErJRa8OCGHxLmwlUwk8IJK1V89gaeq+SOz4GA6RUDYTcDakrEp8JW7hp6UdIeCGP8bL9nGP+qf3oWWrlf6Kg==
 
-"@utam/diagnostics@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@utam/diagnostics/-/diagnostics-0.0.6.tgz#320f5fa5fe0425125d9616105a1d989b0bba2191"
-  integrity sha512-95E8QSn6jfKNXhnsuB73KxFgAiBxxOx1xOTcunEw2Zj+v7pXyLbUO/ffiJ0dIobGfVdITnKkKChLVu1ZQJBwzw==
+"@utam/diagnostics@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@utam/diagnostics/-/diagnostics-0.0.9.tgz#3b6c3353d1899c781456ef4e68dac52cce9e337b"
+  integrity sha512-WGEGCFoIePFl8WQ86WtuUpWuwmNxhZEzuZA4bmwSrMeJe8cYUxNQ4/3CHiDCn45IfVKe3xboQdA950YwO9ggVg==
 
-"@utam/loader@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@utam/loader/-/loader-0.0.6.tgz#832389cf12511fe87b7f07dd08210ef3a59fa24c"
-  integrity sha512-pyI9cmf7M+mmo8Kfodw6l1NsRMMjj4QjfcxLUYReJ/frE2JnCAYrLLPEe6eoYIckclBPacdSh+MCKGXK4nV+qw==
+"@utam/loader@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@utam/loader/-/loader-0.0.9.tgz#1eee3d0a294b6091fdc5228a6cec3e9d827a9d21"
+  integrity sha512-K2WvfobxZn1MS0q7inUH7d+VAxXj8GAc7HCkLij4pD8N3Jc+6kXyNj4DXtirkgAiFbqgQJTqz3d7SXz2owprTw==
   dependencies:
-    "@utam/core" "0.0.6"
+    "@utam/core" "0.0.9"
 
 "@wdio/cli@^6.12.1":
   version "6.12.1"
@@ -2403,14 +2403,14 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-utam@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/utam/-/utam-0.0.6.tgz#d3e1bd08bad6e50fb95925c4f4badcf1f190ebc2"
-  integrity sha512-FM2gztq067kW1Oed4A0Z33WHuBu4HCJWlisVjCEVDqAIbSacl/H9tD4f85C8tFhy2F75xKZcqE9qgJOWmqRjvg==
+utam@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/utam/-/utam-0.0.9.tgz#892e52d23633351b922a473010feaa424475b9b0"
+  integrity sha512-tvgb68FDFXb1NFrH3PXIJiezM5+ZjPhw4gwxIiHUX7OKOEsO0DZ8mH+3rP9XAl5TxtHGrsDZE/MK6ueJxcD0iQ==
   dependencies:
-    "@utam/compiler" "0.0.6"
-    "@utam/core" "0.0.6"
-    "@utam/loader" "0.0.6"
+    "@utam/compiler" "0.0.9"
+    "@utam/core" "0.0.9"
+    "@utam/loader" "0.0.9"
     fast-glob "^3.2.2"
     rollup "^2.38.0"
     yargs "^16.2.0"
@@ -2447,12 +2447,12 @@ wdio-chromedriver-service@^6.0.4:
   dependencies:
     fs-extra "^9.0.0"
 
-wdio-utam-service@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/wdio-utam-service/-/wdio-utam-service-0.0.6.tgz#165d074355bbfaab531153c06aca48ae42383d32"
-  integrity sha512-FPQsAwt+NH63ld3QobD6ASWQ6i4wsTuFlNyouZ0M52XmJLVLvAya2lVwdk7yiR+YItaCUBLYGuFe6IW9rGI7vA==
+wdio-utam-service@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/wdio-utam-service/-/wdio-utam-service-0.0.9.tgz#e5c3f8d6297ce358a6954dd4817f701bb98f50f2"
+  integrity sha512-ZeXZvaOKohqIE5ToyQ0OaOG9CxvLhPZfARBREAFLRvbo8X3Onb2rxWk1PKQAVSpLcl4w8Q6Ys8BHLIbhjYRO6Q==
   dependencies:
-    utam "0.0.6"
+    utam "0.0.9"
 
 webdriver@6.12.1:
   version "6.12.1"
