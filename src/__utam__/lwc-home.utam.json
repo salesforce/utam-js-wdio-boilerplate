@@ -3,11 +3,13 @@
     "selector": {
         "css": "body"
     },
-    "elements": [{
-        "name": "header",
-        "selector": {
-            "css": "h1.title"
-        },
-        "public": true
-    }]
+    "elements": [
+        {
+            "name": "header",
+            "selector": {
+                "css": "h1.title"
+            },
+            "public": true
+        }
+    ]
 }
